@@ -1,0 +1,11 @@
+language: cpp
+
+compiler:
+  - clang
+  - gcc
+
+before_install:
+  - pip install -r requirements.txt
+  
+notifications:
+  email: false
